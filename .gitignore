@@ -1,0 +1,67 @@
+# =========================
+# Python (bytecode/cache)
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.pytype/
+.cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# IDEs/editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs / temp outputs
+# =========================
+*.log
+*.tmp
+*.temp
+
+# Your generated plots / exports
+out_plots/
+outputs/
+data_exports/
+
+# =========================
+# Docker / Compose
+# =========================
+# Env files (secrets)
+.env
+.env.*
+
+# Docker compose overrides
+docker-compose.override.yml
+
+# Local volumes / data dirs (if you bind-mount any)
+pgdata/
+postgres-data/
+data/
+
+# =========================
+# Jupyter / notebooks
+# =========================
+*.ipynb
